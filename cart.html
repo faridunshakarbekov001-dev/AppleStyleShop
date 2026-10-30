@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5f7">
+  <title>Your Bag — Apple Store</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="global-nav" aria-label="Global navigation">
+      <a class="apple-mark" href="index.html" aria-label="Apple Store home"><svg viewBox="0 0 17 20" aria-hidden="true"><path d="M13.8 10.6c0-2 1.6-3 1.7-3.1a4 4 0 0 0-3.1-1.7c-1.3-.1-2.5.8-3.2.8-.7 0-1.7-.8-2.8-.7a4.2 4.2 0 0 0-3.5 2.2c-1.5 2.6-.4 6.4 1 8.5.7 1 1.5 2.2 2.6 2.1 1 0 1.5-.7 2.8-.7s1.7.7 2.8.7c1.1 0 1.8-1 2.5-2.1a9 9 0 0 0 1.2-2.5 3.8 3.8 0 0 1-2-3.5ZM11.7 4.5A3.8 3.8 0 0 0 12.6 2a3.9 3.9 0 0 0-2.4 1.2 3.6 3.6 0 0 0-.9 2.4 3.2 3.2 0 0 0 2.4-1.1Z"/></svg></a>
+      <a href="products.html">Products</a><a href="index.html#accessories">Accessories</a><a href="index.html#support">Support</a>
+      <button class="icon-button search-toggle" type="button" aria-label="Search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.6" cy="8.6" r="5.7"/><path d="m13 13 4.2 4.2"/></svg></button>
+      <a class="icon-button profile-icon" href="profile.html" aria-label="Profile"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="6.5" r="3.2"/><path d="M3.8 17c.5-3.2 2.7-5 6.2-5s5.7 1.8 6.2 5"/></svg></a>
+      <a class="icon-button bag-toggle" href="cart.html" aria-label="Shopping bag"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4.5 6.5h11l.7 11h-12l.3-11Z"/><path d="M7 7V5a3 3 0 0 1 6 0v2"/></svg><span class="cart-count">0</span></a>
+    </nav>
+    <div class="shop-nav"><a href="index.html" class="shop-brand">Store</a><div class="shop-links"><a href="products.html">All products</a><a href="product.html#iphone18">iPhone</a><a href="product.html#watch12">Apple Watch</a><a href="product.html#macmini">Mac</a><a href="product.html#airpods5">AirPods</a></div><a href="account.html" class="shop-cta">Sign in</a></div>
+    <form class="search-panel" role="search" action="products.html"><label for="store-search">Search products</label><input id="store-search" type="search" name="q" placeholder="Search products and accessories"><button type="submit">Search</button><button class="close-search" type="button" aria-label="Close search">×</button></form>
+  </header>
+  <main class="page-width subpage-main">
+    <p class="breadcrumb"><a href="products.html">Products</a><span> / </span>Your Bag</p>
+    <section class="cart-page">
+      <div class="cart-title"><div><p class="eyebrow">APPLE STORE</p><h1>Your bag.</h1></div><a href="account.html">Sign in to see your saved items <span>›</span></a></div>
+      <div class="cart-layout">
+        <div class="cart-items" data-cart-items aria-live="polite">
+          <div class="empty-cart" data-cart-empty><h2>Your bag is empty.</h2><p>Once you add something, it will appear here.</p><a class="pill-link" href="products.html">Continue shopping</a></div>
+          <article class="cart-item" data-cart-item="iphone18" hidden><a class="cart-item-art" href="product.html#iphone18"><img src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-iphone-18-pro-202609?wid=800&amp;hei=1000&amp;fmt=webp&amp;qlt=90&amp;.v=UzBXQnlhUWdraTNvNU1Kb3pEQlpXSWQybG1sZ1oxVnEyWjA5KzltU01ZTFNab1lJcUZwSFVRK1htYlNmZUtPTFJ2R3NEUGt3Q2tTUTNWU09neHFkdWRUL1Azd1lsYk5RbEsxZXhvbThSV3VXS3B5dFRDdHdOWGF6ZzVmZHdiRWc" alt=""></a><div class="cart-item-info"><h2><a href="product.html#iphone18">iPhone 18 Pro</a></h2><p>Finish: <span data-cart-finish>Silver</span></p><button class="remove-item" type="button" data-remove="iphone18">Remove</button></div><div class="cart-item-controls"><strong>$1,199</strong><label class="quantity-control">Qty <button type="button" data-quantity="-1" data-id="iphone18" aria-label="Decrease quantity">−</button><input type="number" min="1" value="1" data-cart-quantity="iphone18" aria-label="iPhone quantity"><button type="button" data-quantity="1" data-id="iphone18" aria-label="Increase quantity">+</button></label></div></article>
+          <article class="cart-item" data-cart-item="watch12" hidden><a class="cart-item-art" href="product.html#watch12"><img src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-watch-series-12-202609?wid=800&amp;hei=1000&amp;fmt=webp&amp;qlt=90&amp;.v=QWhYaUFuRS9hTUliZ3N5RWVCV09vaG9ZUW1EeWY5MUtXMHdLVXUrS2thUHJ5SDBWM0EzY1NDZnVpYTkvandVRGdpcjhyQnJrZTk3NDVpVGh0RDBPL1Yvc09kZVdWOC9XZUNDdFNSdDMyT1pSSk9qMWhSanhURFEvT0lyWmZGVkI" alt=""></a><div class="cart-item-info"><h2><a href="product.html#watch12">Apple Watch Series 12</a></h2><p>Finish: <span data-cart-finish>Jet Black</span></p><button class="remove-item" type="button" data-remove="watch12">Remove</button></div><div class="cart-item-controls"><strong>$399</strong><label class="quantity-control">Qty <button type="button" data-quantity="-1" data-id="watch12" aria-label="Decrease quantity">−</button><input type="number" min="1" value="1" data-cart-quantity="watch12" aria-label="Apple Watch quantity"><button type="button" data-quantity="1" data-id="watch12" aria-label="Increase quantity">+</button></label></div></article>
+          <article class="cart-item" data-cart-item="macmini" hidden><a class="cart-item-art" href="product.html#macmini"><img src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-mac-nav-202603?wid=400&amp;hei=260&amp;fmt=webp-alpha&amp;qlt=90&amp;.v=M1Q3OGxnb1lBaHhqNjZ2OVRXZmx4V2duSGVkdTVncGZYc0RnS1paU3IySCsrUlZaSVRoWVYzU0Qra0FoTmUwNi9QNXlFS1hSa1R2UkcrWjFiN21qeHJmM2dNTnRBQ1R4cGxoYkFsaEFKa1c1K1k1Y2ZhL2RsT3JqdUh6czBxZU0" alt=""></a><div class="cart-item-info"><h2><a href="product.html#macmini">Mac mini</a></h2><p>Finish: <span data-cart-finish>Silver</span></p><button class="remove-item" type="button" data-remove="macmini">Remove</button></div><div class="cart-item-controls"><strong>$699</strong><label class="quantity-control">Qty <button type="button" data-quantity="-1" data-id="macmini" aria-label="Decrease quantity">−</button><input type="number" min="1" value="1" data-cart-quantity="macmini" aria-label="Mac mini quantity"><button type="button" data-quantity="1" data-id="macmini" aria-label="Increase quantity">+</button></label></div></article>
+          <article class="cart-item" data-cart-item="airpods5" hidden><a class="cart-item-art" href="product.html#airpods5"><img src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-airpods-nav-202509?wid=400&amp;hei=260&amp;fmt=webp-alpha&amp;qlt=90&amp;.v=Q0Z1bWFqMUpRRnp3T0Y0VWJpdk1yMDhFUStvWHB3SDlDa3VrdUZORWRqeld1aTN5QlRYNG5PRjJxc2d1RklXbXFIMjJSU3VUZGRWY2Q0ZzZrZlVTSEVaKytVOXBFNXhUYkFYeU1LbHRXRDJCblJUU25lOTBVc1pJNFhQcHA5TlQ" alt=""></a><div class="cart-item-info"><h2><a href="product.html#airpods5">AirPods 5</a></h2><p>Finish: <span data-cart-finish>White</span></p><button class="remove-item" type="button" data-remove="airpods5">Remove</button></div><div class="cart-item-controls"><strong>$129</strong><label class="quantity-control">Qty <button type="button" data-quantity="-1" data-id="airpods5" aria-label="Decrease quantity">−</button><input type="number" min="1" value="1" data-cart-quantity="airpods5" aria-label="AirPods quantity"><button type="button" data-quantity="1" data-id="airpods5" aria-label="Increase quantity">+</button></label></div></article>
+        </div>
+        <aside class="cart-summary" data-cart-summary hidden>
+          <h2>Order summary</h2>
+          <p><span>Subtotal</span><strong data-cart-subtotal>$0</strong></p>
+          <p><span>Shipping</span><strong>Free</strong></p>
+          <p class="summary-total"><span>Total</span><strong data-cart-total>$0</strong></p>
+          <button type="button" class="pill-link checkout-button" data-checkout>Check Out</button>
+          <p class="demo-note">Demo checkout. No payment will be collected.</p>
+        </aside>
+      </div>
+      <p class="form-notice" data-cart-notice role="status" hidden></p>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="page-width"><p>More ways to shop: <a href="index.html">Apple Store</a> or call 1-800-MY-APPLE.</p><div class="footer-bottom"><span>Copyright © 2026 Apple Inc. All rights reserved.</span><a href="account.html">Your account</a></div></div></footer>
+</body>
+</html>
